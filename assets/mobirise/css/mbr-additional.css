@@ -2852,7 +2852,7 @@ body {
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #2e2e2e;
 }
 @media (max-width: 767px) {
@@ -3823,7 +3823,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-regRTRicTk {
-  padding-top: 90px;
+  padding-top: 120px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
@@ -3836,6 +3836,7 @@ body {
 }
 .cid-regRTRicTk .section-text {
   padding: 2rem 0;
+  text-align: center;
 }
 .cid-regRTRicTk .inner-container {
   margin: 0 auto;
