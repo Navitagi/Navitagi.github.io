@@ -4458,6 +4458,12 @@ body {
     padding: 0 1rem;
   }
 }
+#custom-html-1c {
+  /* Type valid CSS here */
+}
+#custom-html-1c .my-image {
+  width: 100%;
+}
 #custom-html-s {
   /* Type valid CSS here */
 }

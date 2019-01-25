@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Temp NaviTagi_EN",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 48,
+    "uniqCompNum": 49,
     "versionPublish": "4.8.10",
     "favicon": "@PROJECT_PATH@/assets/images/nt-favicon-1-128x128.png",
     "noImageResize": "",
@@ -967,14 +967,14 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/templ-2-gal-16-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/templ-2-gal-8-new-1-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/templ_2_gal-15-1600x1080.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/templ-2-gal-15-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/templ_2_gal_8_new-1600x1080.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/templ-2-gal-8-new-85x48.png",
                 "title": "title 3",
                 "text": "text 3",
-                "active": false
+                "active": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/templ-2-gal-20-1600x1080.jpg",
@@ -1057,24 +1057,24 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/templ-2-gal-16-1600x10801.jpg",
+                "image": "@PROJECT_PATH@/assets/images/templ-2-gal-16-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/templ_2_gal-15-1600x1080.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/templ-2-gal-15-85x483.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/templ-2-gal-15-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/templ-2-gal-14-1600x10802.jpg",
+                "image": "@PROJECT_PATH@/assets/images/templ-2-gal-14-1600x10801.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/templ_2_gal-13-1600x1080.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/templ-2-gal-13-85x484.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/templ-2-gal-13-85x482.png",
                 "title": "title 2",
                 "text": "text 2",
-                "active": true
+                "active": false
               }
             ],
             "fullScreen": true,
@@ -3852,6 +3852,18 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div class=\"simcase-CurrencyConverter-CustomContainer\"></div>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1c"
         },
         {
           "_customTemplate": true,
