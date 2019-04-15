@@ -4178,6 +4178,27 @@ body {
   padding-bottom: 15px;
   background-image: url("../../../assets/images/jumbotron.jpg");
 }
+.cid-rnIjdasthe {
+  background: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.cid-rnIjdasthe .image-block {
+  margin: auto;
+}
+.cid-rnIjdasthe figcaption {
+  position: relative;
+}
+.cid-rnIjdasthe figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rnIjdasthe .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rnHdFnoJy1 {
   padding-top: 15px;
   padding-bottom: 15px;
