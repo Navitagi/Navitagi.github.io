@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NaviTagi_EN",
-    "currentPage": "index.html",
+    "currentPage": "petidtag.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1925,7 +1925,7 @@
         "main": true,
         "title": "Pet ID Tags",
         "meta_descr": "Pet ID Tags with updatable contact data",
-        "header_custom": "",
+        "header_custom": "<meta name=\"keywords\" content=\"navitagi, pet id tags, dog id tags, cat id tags, cat, dog, cats, dogs, cat name tag, dog name tag, name tag, multicolor tag, deeply, engraved, name, cute, personalized, plastic, holder, custom, prime, silencer, cool, cheap, idtag, idpet, lines, gps, hook, tracker, stainless, steel, brass, black, big, gold, slide, funny, sided, deep, string, camo, quiet, silent, noise, qr, jingle, blue, rose, double, star, heart, paw, disney, colored, gift \">",
         "footer_custom": "",
         "html_before": ""
       },
