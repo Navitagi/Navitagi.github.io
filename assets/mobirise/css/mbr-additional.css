@@ -2644,6 +2644,12 @@ body {
 .cid-rnHdFnoJy1 .section-text FONT {
   color: #232323;
 }
+#custom-html-2z {
+  /* Type valid CSS here */
+}
+#custom-html-2z .my-image {
+  width: 100%;
+}
 .cid-rnHdMaqPA1 {
   padding-top: 30px;
   padding-bottom: 30px;
