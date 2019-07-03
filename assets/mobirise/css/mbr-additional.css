@@ -8018,3 +8018,9 @@ body {
     margin: 0 0.5rem;
   }
 }
+#custom-html-2u {
+  /* Type valid CSS here */
+}
+#custom-html-2u .my-image {
+  width: 100%;
+}
