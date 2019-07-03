@@ -5649,6 +5649,17 @@ body {
 .cid-r88diPJq0A .mbr-section-subtitle B {
   color: #f16b1b;
 }
+.cid-rv8VYJSNBO {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rv8VYJSNBO .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rv8VYJSNBO .btn {
+  margin: 0 0 .5rem 0;
+}
 #custom-html-1c {
   /* Type valid CSS here */
 }
@@ -5666,17 +5677,6 @@ body {
 }
 #custom-html-1g .my-image {
   width: 100%;
-}
-.cid-rv8VYJSNBO {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-rv8VYJSNBO .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-rv8VYJSNBO .btn {
-  margin: 0 0 .5rem 0;
 }
 .cid-rpjO5BUJnZ {
   padding-top: 15px;
