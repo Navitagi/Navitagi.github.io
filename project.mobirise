@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NaviTagi_EN",
-    "currentPage": "index.html",
+    "currentPage": "amazon.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 135,
+    "uniqCompNum": 136,
     "versionPublish": "4.8.10",
     "favicon": "@PROJECT_PATH@/assets/images/nt-favicon-1-128x128.png",
     "noImageResize": "",
@@ -7515,6 +7515,23 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"> \n  <title>Google Maps Multiple Markers</title> \n  {JS_CODE_0}\n\n  <div id=\"map\" style=\"width: 600 px; height: 700px;\"></div>\n\n  {JS_CODE_1}\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-3r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"http://maps.google.com/maps/api/js?sensor=false\" \n          type=\"text/javascript\"></script>",
+            "<script type=\"text/javascript\">\n    var locations = [\n      ['WOODSTOCK', 34.133692, -84.5746243],\n      ['SNOHOMISH', 47.91287560000001, -122.0981847],\n      ['SAINT PETERS', 38.7874699, -90.6298922],\n      ['PASCOAG', 41.9556539, -71.70228990000001],\n      ['VIENNA', 48.2151781, 16.3033806]\n    ];\n\n    var map = new google.maps.Map(document.getElementById('map'), {\n      zoom: 5,\n      center: new google.maps.LatLng(39.098537, -94.578001),\n      mapTypeId: google.maps.MapTypeId.ROADMAP\n    });\n\n    var infowindow = new google.maps.InfoWindow();\n\n    var marker, i;\n\n    for (i = 0; i < locations.length; i++) {  \n      marker = new google.maps.Marker({\n        position: new google.maps.LatLng(locations[i][1], locations[i][2]),\n        map: map\n      });\n\n      google.maps.event.addListener(marker, 'click', (function(marker, i) {\n        return function() {\n          infowindow.setContent(locations[i][0]);\n          infowindow.open(map, marker);\n        }\n      })(marker, i));\n    }\n  </script>"
+          ]
         }
       ]
     }

@@ -54,7 +54,7 @@
     </div>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/c">free website builder</a></section><section class="mbr-section content8 cid-rvfvhtkgge" id="content8-3b">
+<section class="engine"><a href="https://mobirise.info/l">free site templates</a></section><section class="mbr-section content8 cid-rvfvhtkgge" id="content8-3b">
 
     
 
@@ -66,6 +66,49 @@
         </div>
     </div>
 </section>
+
+<div id="custom-html-3r" custom-code="true" data-rv-view="67"><!-- Type valid HTML here -->
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+  <title>Google Maps Multiple Markers</title> 
+  <script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+
+  <div id="map" style="width: 600 px; height: 700px;"></div>
+
+  <script type="text/javascript">
+    var locations = [
+      ['WOODSTOCK', 34.133692, -84.5746243],
+      ['SNOHOMISH', 47.91287560000001, -122.0981847],
+      ['SAINT PETERS', 38.7874699, -90.6298922],
+      ['PASCOAG', 41.9556539, -71.70228990000001],
+      ['VIENNA', 48.2151781, 16.3033806]
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 5,
+      center: new google.maps.LatLng(39.098537, -94.578001),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+  </script>
+</div>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>

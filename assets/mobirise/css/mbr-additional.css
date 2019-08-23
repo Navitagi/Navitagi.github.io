@@ -7365,3 +7365,9 @@ body {
   padding-bottom: 30px;
   background-color: #ffffff;
 }
+#custom-html-3r {
+  /* Type valid CSS here */
+}
+#custom-html-3r .my-image {
+  width: 100%;
+}
